@@ -1,0 +1,246 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(58, 114, 21);
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+}
+    
+.containerheader {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 15px;
+    
+    & .containerMenu {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+    }
+    & .containerMenu nav {
+        padding: 15px;
+        display: flex;
+        justify-content: right;
+        align-items: right;
+    }
+    & .containerMenu nav a {
+        color: rgb(228, 183, 86);
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 15px;
+        text-decoration: none;
+    }
+    
+    & .containerMenu nav a:hover{
+        color: rgb(228, 183, 86);
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 10px;
+        transition: 0.25s;
+        background: rgb(209, 209, 209);
+        border-radius: 8px;
+    }
+}
+
+main{
+    width: 100%;
+    
+    & .containerStart {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    & .containerStart nav {
+        color: rgb(66, 51, 23);
+        font-size: 45px;
+        padding: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    & .containerStart nav a {
+        color: rgb(66, 51, 23);
+        font-size: 45px;
+        padding: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+    }
+    
+    & .containerStart nav a:hover{
+        color: rgb(87, 92, 43);
+        font-size: 40px;
+        transition: 2.0s;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 15px;
+        border-radius: 8px;
+    }
+}
+
+main{
+    width: 100%;
+    
+    & .containerStart {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    & .containerStart nav {
+        color: white;
+        font-size: 45px;
+        padding: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    & .containerStart nav a {
+        color: white;
+        font-size: 45px;
+        padding: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+    }
+    
+    & .containerStart nav a:hover{
+        color: white;
+        font-size: 40px;
+        transition: 2.0s;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 15px;
+        border-radius: 8px;
+    }
+}
+    
+.containerheader2 {
+    margin: 0;
+    width: 100%;
+    background: rgb(80, 52, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+    & .containerMenu2 {
+        width: 60%;
+    }
+    & .containerMenu2 nav {
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    & .containerMenu2 nav a {
+        color: rgb(228, 183, 86);
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 35px;
+        text-decoration: none;
+    }
+    
+    & .containerMenu2 nav a:hover{
+        color: rgb(228, 183, 86);
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 10px;
+        transition: 0.25s;
+        background: rgb(209, 209, 209);
+        border-radius: 8px;
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+    
+.containerheader3 {
+    margin: 0;
+    width: 75%;
+    background:rgb(228, 183, 86) ;
+    display: flex;
+    padding: 50px;
+    border-radius: 10px;
+    
+    & .containerMenu2 {
+        width: 60%;
+    }
+    & .containerMenu3 nav {
+        padding: 15px;
+        display: flex;
+        justify-content: right;
+    }
+    & .containerMenu3 nav a {
+        color: white;
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 15px;
+        text-decoration: none;
+    }
+    
+    & .containerMenu3 nav a:hover{
+        color: white;
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 10px;
+        transition: 0.25s;
+        background: rgb(16, 179, 138);
+        border-radius: 8px;
+    }
+
+    & .containerLogo{
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+
+    & .containerLogo img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+main{
+    width: 100%;
+    
+    & .containerStart {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    & .containerStart nav {
+        color: white;
+        font-size: 45px;
+        padding: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    & .containerStart nav a {
+        color: white;
+        font-size: 45px;
+        padding: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+    }
+    
+    & .containerStart nav a:hover{
+        color: white;
+        font-size: 40px;
+        transition: 2.0s;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 15px;
+        border-radius: 8px;
+    }
+}
