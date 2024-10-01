@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Livros</title>
+    <link rel="stylesheet" href="../front end/buscar.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Buscar Livros</h1>
+        <form action="http://localhost:3000/livros/buscar" method="get" class="search-form">
+            <input type="text" id="busca" name="busca" placeholder="Digite o nome do livro ou autor" required>
+            <button type="submit">Buscar</button>
+        </form>
+        
+        <div class="resultados">
+            <h2>Resultados da Busca</h2>
+            <ul id="listaResultados">
+                <!-- Os resultados da busca serão exibidos aqui -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
